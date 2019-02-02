@@ -1,8 +1,8 @@
 @import 'bootstrap/bootstrap';
 @import 'bootstrap/variables';
 
-$font-primary: 'Montserrat',Arial, sans-serif;
-$font-secondary: 'Poppins',Arial, sans-serif;
+$font-primary: 'Source Sans Pro',Arial, sans-serif;
+$font-secondary: 'Source Sans Pro',Arial, sans-serif;
 
 $white: #fff;
 $black: #000000;
@@ -347,7 +347,7 @@ h1, h2, h3, h4, h5,
 //HERO-WRAP
 .hero-wrap{
 	width: 100%;
-	height: 100%;
+	height: 50%;
 	position: relative;
 	z-index: 0;
 	.overlay{

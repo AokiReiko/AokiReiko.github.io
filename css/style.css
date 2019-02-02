@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6,
   color: inherit; }
 
 h1, .h1 {
-  font-size: 2.5rem; }
+  font-size: 2.5rem;; }
 
 h2, .h2 {
   font-size: 2rem; }
@@ -914,9 +914,9 @@ pre {
     max-width: 58.33333%; }
   .col-md-8 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 66.66667%;
-    flex: 0 0 66.66667%;
-    max-width: 66.66667%; }
+    -ms-flex: 0 0 80%;
+    flex: 0 0 80%;
+    max-width: 80%; }
   .col-md-9 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 75%;
@@ -6171,6 +6171,7 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4 {
+  text-align: center;
   margin-bottom: 1.5rem !important; }
 
 .ml-4,
@@ -7268,7 +7269,7 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #dee2e6 !important; } }
 
 body {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
   background: #fff;
   font-size: 15px;
   line-height: 1.8;
@@ -7309,7 +7310,7 @@ h1, h2, h3, h4, h5,
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.8);
   font-weight: 400;
-  font-family: "Poppins", Arial, sans-serif; }
+  font-family: "Source Sans Pro", Arial, sans-serif; }
 
 #colorlib-page {
   width: 100%;
@@ -7376,7 +7377,7 @@ h1, h2, h3, h4, h5,
         text-decoration: none;
         position: relative;
         padding: 10px 0;
-        font-family: "Montserrat", Arial, sans-serif;
+        font-family: "Source Sans Pro", Arial, sans-serif;
         -moz-transition: all 0.3s ease;
         -o-transition: all 0.3s ease;
         -webkit-transition: all 0.3s ease;
@@ -7421,7 +7422,7 @@ h1, h2, h3, h4, h5,
           -o-transform: scaleX(1);
           transform: scaleX(1); }
   #colorlib-aside .colorlib-footer {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 40px;
     right: 1.5em;
     left: 1.5em;
@@ -7559,12 +7560,13 @@ h1, h2, h3, h4, h5,
       opacity: 1;
       visibility: visible; } }
 
-.hero-wrap {
+.
+ {
   width: 100%;
   height: 100%;
   position: relative;
   z-index: 0; }
-  .hero-wrap .overlay {
+  .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -8029,7 +8031,7 @@ textarea.form-control {
   font-size: 20px; }
 
 .ftco-section {
-  padding: 6em 1.8em;
+  padding: 3em 1.8em;
   position: relative; }
 
 .ftco-footer {
